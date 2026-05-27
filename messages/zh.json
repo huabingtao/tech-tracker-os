@@ -1,0 +1,77 @@
+{
+  "Common": {
+    "dashboard": "仪表盘",
+    "labs": "实验室",
+    "interview": "面试题库",
+    "devops": "运维看板",
+    "settings": "设置"
+  },
+  "HomePage": {
+    "title": "技术追踪器",
+    "systemReadiness": "系统准备度",
+    "totalNodes": "总节点数",
+    "mastered": "已掌握",
+    "reviewStreak": "复习连击",
+    "knowledgeGap": "知识差距",
+    "skillMatrixGap": "技能矩阵差距",
+    "days": "{count} 天"
+  },
+  "Interview": {
+    "title": "AI 面试沙盒",
+    "interview": "模拟面试",
+    "summary": "复盘总结",
+    "gallery": "题库管理",
+    "availableDomains": "可用技能领域",
+    "questionMatrixGallery": "面试题矩阵",
+    "gallerySubtitle": "在下方编辑问题以自定义你的面试路径。",
+    "chooseSkill": "选择一个技能开始或继续你的面试。",
+    "agentTitle": "AI 面试官",
+    "level": "级别",
+    "loading": "正在加载会话状态...",
+    "placeholder": "在这里输入你的回答...",
+    "proceed": "进入下一级",
+    "skip": "跳过",
+    "review": "回顾",
+    "mastery": "掌握度",
+    "replyLog": "回答记录",
+    "yourAnswer": "你的回答",
+    "noAnswer": "未提供回答",
+    "done": "完成",
+    "edit": "编辑",
+    "resetConfirm": "确定清除 {name} 的进度并重新开始吗？"
+  },
+  "Labs": {
+    "title": "技术实验室",
+    "enter": "进入实验",
+    "categories": {
+      "framework": "框架"
+    },
+    "vueReactivity": {
+      "title": "Vue 3 响应式 (Proxy)",
+      "description": "使用原生 JS 实现基于 Proxy 的响应式引擎，理解依赖收集与触发。"
+    },
+    "reactHookFlow": {
+      "title": "React Hook 执行流",
+      "description": "通过 useInterval 实验观察 Hook 闭包陷阱与渲染生命周期。"
+    }
+  },
+  "DevOps": {
+    "title": "运维基础设施控制",
+    "systemLoad": "系统负载",
+    "manageNode": "管理节点",
+    "trafficMonitor": "全球流量监控",
+    "pending": "实时数据可视化模块待开发...",
+    "status": {
+      "online": "在线",
+      "standby": "待机",
+      "active": "活跃"
+    }
+  },
+  "Dashboard": {
+    "dueToday": "今日待复习 ({count})",
+    "allClear": "全部完成！你已经达成了今天的目标。",
+    "next": "下次",
+    "currentMastery": "当前掌握度",
+    "interviewTarget": "面试目标"
+  }
+}

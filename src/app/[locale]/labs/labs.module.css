@@ -1,0 +1,309 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card:hover {
+  border-color: var(--accent-neon);
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  color: var(--accent-neon);
+}
+
+.badge {
+  font-size: 0.7rem;
+  background: var(--accent-blue);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--accent-neon);
+  font-weight: 600;
+}
+
+/* Sub-page Experiment Layouts */
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  transition: var(--transition-fast);
+}
+
+.backLink:hover {
+  color: var(--accent-neon);
+}
+
+.labLayout {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.playground {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.controlCard {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.codeBlock {
+  background: var(--bg-primary);
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.85rem;
+  color: var(--accent-blue);
+  margin: 1rem 0;
+  border: 1px solid var(--border);
+}
+
+.btnGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.actionBtn {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--transition-fast);
+}
+
+.actionBtn:hover {
+  border-color: var(--accent-neon);
+  color: var(--accent-neon);
+}
+
+.visualizer {
+  flex: 1;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  min-height: 300px;
+}
+
+.renderFlash {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: rgba(0, 255, 65, 0.05);
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 255, 65, 0.1);
+}
+
+.logPanel {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.logItem {
+  font-size: 0.8rem;
+  font-family: monospace;
+  padding: 0.5rem;
+  background: var(--bg-primary);
+  border-radius: 4px;
+  color: var(--text-secondary);
+}
+
+.counterDisplay {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.warningCard {
+  background: rgba(255, 69, 58, 0.05);
+  border: 1px solid rgba(255, 69, 58, 0.2);
+  padding: 1.2rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.miniBtn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.miniBtn:hover {
+  border-color: var(--accent-neon);
+  color: var(--accent-neon);
+}
+
+.jsonEditor {
+  width: 100%;
+  height: 150px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--accent-blue);
+  font-family: 'Fira Code', monospace;
+  font-size: 0.85rem;
+  resize: vertical;
+  margin: 1rem 0;
+}
+
+.jsonEditor:focus {
+  outline: none;
+  border-color: var(--accent-neon);
+}
+
+.liveValue {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.deepDive {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.diveHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.diveGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.diveCard {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.diveCard h4 {
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  font-size: 1rem;
+  border-left: 3px solid var(--accent-neon);
+  padding-left: 0.8rem;
+}
+
+.diveCard ul {
+  padding-left: 1.2rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.miniCode {
+  background: var(--bg-primary);
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: var(--accent-blue);
+  overflow-x: auto;
+  border: 1px solid var(--border);
+}

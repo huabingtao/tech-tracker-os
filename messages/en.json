@@ -1,0 +1,77 @@
+{
+  "Common": {
+    "dashboard": "Dashboard",
+    "labs": "Labs",
+    "interview": "Interview",
+    "devops": "DevOps",
+    "settings": "Settings"
+  },
+  "HomePage": {
+    "title": "Tech-Tracker",
+    "systemReadiness": "System Readiness",
+    "totalNodes": "Total Nodes",
+    "mastered": "Mastered",
+    "reviewStreak": "Review Streak",
+    "knowledgeGap": "Knowledge Gap",
+    "skillMatrixGap": "Skill Matrix Gap",
+    "days": "{count, plural, =1 {1 Day} other {# Days}}"
+  },
+  "Interview": {
+    "title": "AI Interview Sandbox",
+    "interview": "Interview",
+    "summary": "Summary",
+    "gallery": "Gallery",
+    "availableDomains": "Available Domains",
+    "questionMatrixGallery": "Question Matrix Gallery",
+    "gallerySubtitle": "Customize your interview path by editing questions below.",
+    "chooseSkill": "Choose a skill to start or resume a progressive interview.",
+    "agentTitle": "AI Interviewer Agent",
+    "level": "Level",
+    "loading": "Loading session state...",
+    "placeholder": "Type your answer here...",
+    "proceed": "Proceed to Next Level",
+    "skip": "Skip",
+    "review": "Review",
+    "mastery": "Mastery",
+    "replyLog": "Reply Log",
+    "yourAnswer": "Your Answer",
+    "noAnswer": "No answer provided",
+    "done": "Done",
+    "edit": "Edit",
+    "resetConfirm": "Clear {name} progress and start fresh?"
+  },
+  "Labs": {
+    "title": "Technical Labs",
+    "enter": "Enter Experiment",
+    "categories": {
+      "framework": "Framework"
+    },
+    "vueReactivity": {
+      "title": "Vue 3 Reactivity (Proxy)",
+      "description": "Implement a Proxy-based reactivity engine using vanilla JS to understand dependency collection and triggering."
+    },
+    "reactHookFlow": {
+      "title": "React Hook Execution Flow",
+      "description": "Observe Hook closure traps and rendering lifecycles through useInterval experiments."
+    }
+  },
+  "DevOps": {
+    "title": "DevOps Infrastructure Control",
+    "systemLoad": "System Load",
+    "manageNode": "Manage Node",
+    "trafficMonitor": "Global Traffic Monitor",
+    "pending": "Live data visualization module pending...",
+    "status": {
+      "online": "Online",
+      "standby": "Standby",
+      "active": "Active"
+    }
+  },
+  "Dashboard": {
+    "dueToday": "Due for Review Today ({count})",
+    "allClear": "All clear! You've mastered your goals for today.",
+    "next": "Next",
+    "currentMastery": "Current Mastery",
+    "interviewTarget": "Interview Target"
+  }
+}
